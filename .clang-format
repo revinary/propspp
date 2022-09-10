@@ -1,0 +1,15 @@
+﻿---
+BasedOnStyle: WebKit
+AllowAllConstructorInitializersOnNextLine: 'false'
+BinPackParameters: 'false'
+BreakConstructorInitializers: AfterColon
+BreakInheritanceList: AfterColon
+AlwaysBreakTemplateDeclarations: 'Yes'
+ColumnLimit: '140'
+FixNamespaceComments: 'true'
+SortIncludes: 'false'
+SpaceAfterTemplateKeyword: 'false'
+SeparateDefinitionBlocks : Always
+AllowShortFunctionsOnASingleLine: None
+BreakBeforeBraces: Allman
+...

@@ -1,0 +1,16 @@
+---
+Checks: '
+    clang-diagnostic-*,
+    clang-analyzer-*,
+    cppcoreguidelines-*,
+    modernize-*,
+    bugprone-*,
+    -modernize-use-trailing-return-type,
+    -cppcoreguidelines-avoid-magic-numbers,
+    -cppcoreguidelines-pro-type-const-cast,
+    -cppcoreguidelines-macro-usage'
+
+WarningsAsErrors: true
+HeaderFilterRegex: '.*catch2.*'
+AnalyzeTemporaryDtors: false
+...
