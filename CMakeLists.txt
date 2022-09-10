@@ -1,5 +1,7 @@
 cmake_minimum_required(VERSION 3.21)
 
+configure_file(.clangd.in ${CMAKE_SOURCE_DIR}/.clangd @ONLY)
+
 project(props++
     LANGUAGES CXX
     VERSION 0.1
