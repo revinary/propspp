@@ -2,7 +2,6 @@
 
 #include <algorithm>
 #include <any>
-#include <bits/ranges_util.h>
 #include <concepts>
 #include <functional>
 #include <stdexcept>
