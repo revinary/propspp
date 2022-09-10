@@ -30,9 +30,9 @@ protected:
         _binding_target = this;
     }
 
-    bool binding_in_progress()
+    [[nodiscard]] bool binding_in_progress() const
     {
-        return _binding_target;
+        return _binding_target != nullptr;
     }
 
     void stop_binding()
@@ -40,7 +40,7 @@ protected:
         _binding_target = nullptr;
     }
 
-    bindable_base* binding_target()
+    [[nodiscard]] bindable_base* binding_target() const
     {
         return _binding_target;
     }
@@ -82,11 +82,11 @@ public:
         }
     }
 
-    const T& value()
+    const T& value() const
     {
         if (binding_in_progress())
         {
-            binding_target();
+            int;
         }
         return _value;
     }
