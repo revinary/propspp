@@ -9,7 +9,7 @@ ColumnLimit: '140'
 FixNamespaceComments: 'true'
 SortIncludes: 'false'
 SpaceAfterTemplateKeyword: 'false'
-SeparateDefinitionBlocks : Always
+#SeparateDefinitionBlocks : Always
 AllowShortFunctionsOnASingleLine: None
 BreakBeforeBraces: Allman
 ...
