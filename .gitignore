@@ -18,6 +18,7 @@ projects/Generated
 DerivedData
 *.xccheckout
 build
+.clangd
 .idea
 .vs
 .vscode
